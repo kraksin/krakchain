@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/kraksin/krakchain.git",
   "author": "kraksin <kraksin12@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "tsc"
+  }
+  
 }
